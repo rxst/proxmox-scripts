@@ -48,13 +48,14 @@ NOTE: Since the new container has docker support, it cannot be run unpriviledged
 
 ### Instructions
 
-```bash
 # Download the script
+```bash
 curl -O https://raw.githubusercontent.com/rxst/proxmox-scripts/main/lxc_create_github_actions_runner.sh
-
+```
 # Inspect script, customize variables
 
 # Run the script
+```bash
 bash lxc_create_github_actions_runner.sh
 ```
 
